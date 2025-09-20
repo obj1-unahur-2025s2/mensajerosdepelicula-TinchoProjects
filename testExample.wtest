@@ -24,3 +24,6 @@ test "2. Que neo con crédito no puede llevar un paquete que no está pago a la 
 }
 }
 
+test "Paqueton está totalmente pago, entonces se puede entregar" {
+  assert.that(empresa.sePuedeEntregarPorPrimerEmpleado(paqueton))
+}
